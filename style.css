@@ -1,0 +1,82 @@
+html{
+    background-color: hsl(30, 54%, 90%);
+}
+
+img[src]{
+    margin-bottom: 30px;
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+strong{
+    font-size: xx-large;
+    font-family: "Young Serif";
+}
+
+body{
+    padding: 30px 30px 30px 30px;
+    margin: 100px 200px 100px 200px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Outfit";
+}
+
+h2{
+    font-family: "Young Serif";
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+    line-height: 0.1;
+    padding-left: 2px;
+    color: hsl(332, 51%, 32%);
+}
+
+
+.preparing{
+    line-height: 1.9;
+    text-indent: 15px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.ingredients{
+    text-indent: 15px;
+    line-height: 2.0;
+    padding-bottom: 5px;
+}
+
+.instructions{
+    text-indent: 10px;
+    line-height: 1.5em;
+}
+
+.nutrition{
+    padding-left: 5px;
+}
+
+ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+ol li::marker{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+th{
+    padding-right: 200px;
+    font-weight: normal;
+}
+
+td{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+th{
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
